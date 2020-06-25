@@ -9,4 +9,4 @@ spec:
   buildDefaults:
     imageLabels:
     - name: preprodbuild-test
-      value: "TRUE"
+      value: "true"
