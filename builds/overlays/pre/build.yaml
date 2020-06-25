@@ -8,5 +8,5 @@ metadata:
 spec:
   buildDefaults:
     imageLabels:
-    - name: preprodbuild
+    - name: preprodbuild-test
       value: "true"
