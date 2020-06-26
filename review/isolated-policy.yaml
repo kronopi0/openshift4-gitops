@@ -3,5 +3,10 @@ kind: NetworkPolicy
 metadata:
   name: isolated
 spec:
-  podSelector: {}
-  ingress: []
+  ingress:
+  - from:
+    - namespaceSelector:
+        matchLabels:
+          network.openshift.io/policy-group: ingress
+  policyTypes:
+  - Ingress
