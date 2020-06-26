@@ -3,6 +3,7 @@ kind: NetworkPolicy
 metadata:
   name: isolated
 spec:
+  podSelector: {}
   ingress:
   - from:
     - namespaceSelector:
