@@ -3,5 +3,5 @@ kind: NetworkPolicy
 metadata:
   name: isolated
 spec:
-  podSelector:
+  podSelector: {}
   ingress: []
